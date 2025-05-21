@@ -1,0 +1,35 @@
+health-records-management-app
+
+This is a "Streamlit web application" that allows users to upload health record PDFs, extract their text, and classify them into categories like 
+Lab Report 
+Prescription
+Discharge Summary/Scan Report Using Machine Learning.
+
+->Features:
+- Upload PDF health records
+- Extract and preview text using PyMuPDF
+- Classify documents using a Naive Bayes model
+- Categories supported: Lab Report, Prescription, Discharge Summary, Scan Report
+
+->Tech Stack:
+- Frontend: [Streamlit](https://streamlit.io/)
+- PDF Processing: PyMuPDF (fitz)
+- ML Model: Scikit-learn (TfidfVectorizer + Multinomial Naive Bayes)
+
+->Installation:
+1. Clone the Repository
+git clone https://github.com/Hiranmayee-ABSN/health-records-management-app.git
+cd health-records-management-app
+
+2. Install Dependencies
+Make sure Python 3.7+ is installed, then install required libraries:
+pip install -r requirements.txt
+
+3. Run the App
+streamlit run app.py
+
+-> Notes
+
+* No real patient data is used.
+* The ML model is trained on basic sample texts for demonstration.
+* Uploaded files are saved locally under 'static/uploads'.
