@@ -33,3 +33,8 @@ streamlit run app.py
 * No real patient data is used.
 * The ML model is trained on basic sample texts for demonstration.
 * Uploaded files are saved locally under 'static/uploads'.
+No, **it's not strictly necessary** to add a license — but it's **highly recommended**, especially if you're planning to share your project publicly on platforms like GitHub or Hugging Face.
+
+->License:
+This project is licensed under the MIT License.
+
